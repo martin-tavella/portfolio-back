@@ -7,9 +7,6 @@ export type ProjectDocument = Project & Document;
 
 @Schema({ timestamps: true })
 export class Project {
-  @Prop({ required: true, unique: true })
-  id: string;
-
   @Prop({ required: true })
   title: string;
 
