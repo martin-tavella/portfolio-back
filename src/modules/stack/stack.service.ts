@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Technology } from 'src/schemas/technology/technology.schema';
@@ -9,6 +9,13 @@ export class StackService {
   constructor(
     @InjectModel(Technology.name) private technologyModel: Model<Technology>,
   ) {}
+
+  async getAllStack() {
+    const technologies = await this.technologyModel.find();
+    if (technologies.length === 0)
+      throw new NotFoundException('Technologies not found');
+    return technologies;
+  }
 
   async seedTechnologies() {
     for (const tech of technologies) {
