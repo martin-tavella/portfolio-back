@@ -20,7 +20,7 @@ export class Project {
   github: GitHubLink[];
 
   @Prop({ required: true })
-  image: string;
+  image: string[];
 
   @Prop({ type: [DemoLink], required: true })
   demos: DemoLink[];

@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Servicio Libre",
+    "description": [
+      {
+        "language": "en",
+        "text": "Full-stack application solution to freelance workers. Developed with payment integration, admin dashboard, chat worker-customer. Built with modern technologies for optimal performance."
+      },
+      {
+        "language": "es",
+        "text": "Solución de aplicación full-stack para trabajadores freelance. Desarrollada con integración de pagos, panel de administración, chat entre trabajador y cliente. Construida con tecnologías modernas para un rendimiento óptimo."
+      }
+    ],
+    "technologies": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "TypeScript",
+      "Node.js",
+      "NestJS",
+      "Mercado Pago",
+      "Stripe",
+      "PostgreSQL"
+    ],
+    "github": [
+      {
+        "name": "frontend",
+        "url": "https://github.com/Servicios-libre/frontend"
+      },
+      {
+        "name": "backend",
+        "url": "https://github.com/Servicios-libre/backend"
+      }
+    ],
+    "image": [
+      "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752191586/servicio-libre-landing_sunei2.png"
+    ],
+    "demos": [
+      {
+        "name": "Deploy Frontend",
+        "url": "https://serviciolibre.vercel.app"
+      },
+      {
+        "name": "Deploy Backend",
+        "url": "https://back-servicio-libre.onrender.com"
+      }
+    ]
+  }
+]
