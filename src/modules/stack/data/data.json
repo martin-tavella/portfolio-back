@@ -1,240 +1,99 @@
-
 [
   {
     "name": "React",
-    "image": "/icons/react.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278337/react-svgrepo-com_elzrfz.svg",
     "category": "library",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Built responsive SPAs with hooks, context API and component reusability"
-      },
-      {
-        "language": "es",
-        "text": "Desarrollé SPAs responsivas con hooks, context API y componentes reutilizables"
-      }
-    ],
-    "order": 1,
-    "active": true
-  },
-  {
-    "name": "Next.js",
-    "image": "/icons/nextjs.svg",
-    "category": "framework",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Developed SSR applications with optimized performance and SEO"
-      },
-      {
-        "language": "es",
-        "text": "Desarrollé aplicaciones SSR con rendimiento optimizado y SEO"
-      }
-    ],
-    "order": 2,
-    "active": true
-  },
-  {
-    "name": "JavaScript",
-    "image": "/icons/javascript.svg",
-    "category": "language",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Dynamic programming language for interactive web applications and modern ES6+ features"
-      },
-      {
-        "language": "es",
-        "text": "Lenguaje de programación dinámico para aplicaciones web interactivas y características modernas de ES6+"
-      }
-    ],
-    "order": 3,
-    "active": true
-  },
-  {
-    "name": "TypeScript",
-    "image": "/icons/typescript.svg",
-    "category": "language",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Strong typing for scalable applications with enhanced development experience"
-      },
-      {
-        "language": "es",
-        "text": "Tipado fuerte para aplicaciones escalables con mejor experiencia de desarrollo"
-      }
-    ],
-    "order": 4,
-    "active": true
-  },
-  {
-    "name": "Tailwind CSS",
-    "image": "/icons/tailwind.svg",
-    "category": "framework",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Utility-first CSS framework for rapid UI development and consistent design"
-      },
-      {
-        "language": "es",
-        "text": "Framework CSS utility-first para desarrollo rápido de UI y diseño consistente"
-      }
-    ],
-    "order": 5,
-    "active": true
-  },
-  {
-    "name": "Node.js",
-    "image": "/icons/nodejs.svg",
-    "category": "other",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Built RESTful APIs with authentication, validation and error handling"
-      },
-      {
-        "language": "es",
-        "text": "Construí APIs RESTful con autenticación, validación y manejo de errores"
-      }
-    ],
     "order": 6,
     "active": true
   },
   {
-    "name": "Express.js",
-    "image": "/icons/express.svg",
+    "name": "Next.js",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278892/nextjs-fill-svgrepo-com_m96ykb.svg",
     "category": "framework",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Fast and minimalist web framework for building scalable server applications"
-      },
-      {
-        "language": "es",
-        "text": "Framework web rápido y minimalista para construir aplicaciones servidor escalables"
-      }
-    ],
-    "order": 7,
-    "active": true
-  },
-  {
-    "name": "NestJS",
-    "image": "/icons/nestjs.svg",
-    "category": "framework",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Progressive Node.js framework with TypeScript support for building scalable server-side applications"
-      },
-      {
-        "language": "es",
-        "text": "Framework progresivo de Node.js con soporte para TypeScript para construir aplicaciones escalables del lado del servidor"
-      }
-    ],
     "order": 8,
     "active": true
   },
   {
+    "name": "JavaScript",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278892/javascript-svgrepo-com_riogu9.svg",
+    "category": "language",
+    "order": 1,
+    "active": true
+  },
+  {
+    "name": "TypeScript",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/typescript-svgrepo-com_v231wv.svg",
+    "category": "language",
+    "order": 2,
+    "active": true
+  },
+  {
+    "name": "Tailwind CSS",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/tailwind-svgrepo-com_kyjsri.svg",
+    "category": "framework",
+    "order": 7,
+    "active": true
+  },
+  {
+    "name": "Node.js",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/node-svgrepo-com_wasrz9.svg",
+    "category": "other",
+    "order": 5,
+    "active": true
+  },
+  {
+    "name": "Express.js",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/express-svgrepo-com_jz8nlq.svg",
+    "category": "framework",
+    "order": 4,
+    "active": true
+  },
+  {
+    "name": "NestJS",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/nestjs-svgrepo-com_ltzwj5.svg",
+    "category": "framework",
+    "order": 3,
+    "active": true
+  },
+  {
     "name": "MongoDB",
-    "image": "/icons/mongodb.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/mongo-svgrepo-com_jqxazw.svg",
     "category": "db",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "NoSQL database with Mongoose ODM for flexible data modeling"
-      },
-      {
-        "language": "es",
-        "text": "Base de datos NoSQL con Mongoose ODM para modelado flexible de datos"
-      }
-    ],
     "order": 9,
     "active": true
   },
   {
     "name": "PostgreSQL",
-    "image": "/icons/postgresql.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752279090/postgresql-svgrepo-com_l6azyc.svg",
     "category": "db",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Relational database with complex queries and data integrity"
-      },
-      {
-        "language": "es",
-        "text": "Base de datos relacional con consultas complejas e integridad de datos"
-      }
-    ],
     "order": 10,
     "active": true
   },
   {
     "name": "Git",
-    "image": "/icons/git.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278893/git-svgrepo-com_hkkzvl.svg",
     "category": "other",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Version control with branching strategies and collaborative workflows"
-      },
-      {
-        "language": "es",
-        "text": "Control de versiones con estrategias de branching y flujos colaborativos"
-      }
-    ],
     "order": 11,
     "active": true
   },
   {
     "name": "Vercel",
-    "image": "/icons/vercel.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278893/vercel-fill-svgrepo-com_mfh8x1.svg",
     "category": "other",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Frontend deployment with automatic CI/CD and performance optimization"
-      },
-      {
-        "language": "es",
-        "text": "Despliegue frontend con CI/CD automático y optimización de rendimiento"
-      }
-    ],
     "order": 12,
     "active": true
   },
   {
     "name": "JWT",
-    "image": "/icons/jwt.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278900/icons8-jwt-480_x707to.png",
     "category": "other",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Secure token-based authentication for stateless user sessions"
-      },
-      {
-        "language": "es",
-        "text": "Autenticación segura basada en tokens para sesiones de usuario sin estado"
-      }
-    ],
     "order": 13,
     "active": true
   },
   {
     "name": "Scrum",
-    "image": "/icons/scrum.svg",
+    "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278893/scrum-svgrepo-com_c8shvc.svg",
     "category": "other",
-    "highlight": [
-      {
-        "language": "en",
-        "text": "Agile methodology for iterative development and team collaboration"
-      },
-      {
-        "language": "es",
-        "text": "Metodología ágil para desarrollo iterativo y colaboración en equipo"
-      }
-    ],
     "order": 14,
     "active": true
   }

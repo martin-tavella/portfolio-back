@@ -14,8 +14,6 @@ export class Technology {
     required: true,
   })
   category: string;
-  @Prop({ required: true })
-  highlight: { language: string; text: string }[];
   @Prop({ type: Number, default: 0 })
   order: number;
   @Prop({ type: Boolean, default: true })
