@@ -1,4 +1,6 @@
 import { createTransport } from 'nodemailer';
+import { config } from 'dotenv';
+config({ path: ['.env', '.env.development'] });
 
 const emailSender = async (subject: string, text: string) => {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call
