@@ -10,6 +10,7 @@ import {
   TechnologySchema,
 } from './schemas/technology/technology.schema';
 import { StackService } from './modules/stack/stack.service';
+import { ContactModule } from './modules/contact/contact.module';
 
 @Module({
   imports: [
@@ -37,6 +38,7 @@ import { StackService } from './modules/stack/stack.service';
     ]),
     ProjectsModule,
     StackModule,
+    ContactModule,
   ],
   providers: [ProjectsService, StackService],
 })
