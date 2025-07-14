@@ -28,7 +28,7 @@
     "active": true
   },
   {
-    "name": "Tailwind CSS",
+    "name": "Tailwind",
     "image": "https://res.cloudinary.com/dmeuurnnv/image/upload/v1752278891/tailwind-svgrepo-com_kyjsri.svg",
     "category": "framework",
     "order": 7,
