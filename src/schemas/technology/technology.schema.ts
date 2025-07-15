@@ -10,10 +10,15 @@ export class Technology {
   image: string;
   @Prop({
     type: String,
-    enum: ['language', 'framework', 'library', 'db', 'other'],
     required: true,
   })
   category: string;
+  @Prop({
+    type: String,
+    enum: ['frontend', 'backend', 'languages', 'db', 'tools'],
+    required: true,
+  })
+  type: string;
   @Prop({ type: Number, default: 0 })
   order: number;
   @Prop({ type: Boolean, default: true })
